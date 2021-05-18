@@ -1,0 +1,16 @@
+{% extends 'page/base.html' %}
+{% block title %}Delete Task{% endblock title %}
+{% block content %}
+<div class='header-bar'>
+	<a href='{% url "todolist" %}'>Go Back..</a>
+	</div>
+<div id='card-body'>
+	<form method='POST'>
+		{% csrf_token %}
+	<p>Are you sure you want to delete this task? </p>
+	<a id='button' href='{% url "todolist"  %}'>Cancel</a>
+	<input id='button' type='submit' value = 'Delele'>
+	</form>
+</div>
+{% endblock content %}
+	

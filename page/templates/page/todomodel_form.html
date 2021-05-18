@@ -1,0 +1,22 @@
+{% extends 'page/base.html' %}
+{% block title %}Task Form{% endblock title %}
+{% block content %}
+<div class='header-bar'>
+<a href='{% url "todolist" %}'>Go Back..</a>
+</div>
+<div id='card-body'>
+<h2> Add Task</h2>
+	<form method='POST'>
+	{% csrf_token %}
+		<label>{{form.title.label}}</label>
+	{{form.title}}
+	<label>{{form.discription.label}}</label>
+	{{form.discription}}
+	<label>{{form.created.label}} </label>
+		{{form.created}}
+	<label>Task {{form.completed.label}} ? {{form.completed}}</label>
+	<br>
+	<input style ='margin-top:5px' id='button' type='submit' value='Submit'>
+	</form>
+</div>
+{% endblock content %}
