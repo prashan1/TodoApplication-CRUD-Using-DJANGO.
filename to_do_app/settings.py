@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5xr=b)02&h4s^6&wrlhb3fn52=_!yc0aygv7s##v2yo+0d92=9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://task-reminder-todo.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
