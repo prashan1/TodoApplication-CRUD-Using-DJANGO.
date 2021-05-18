@@ -10,7 +10,7 @@ Listing all current jobs (sorted by completion status and date)
 
 
 # For adding more task
-t is also possible to mark job as completed or delete it completely.
+It is also possible to mark job as completed or delete it completely.
 ![118689500-b3372080-b824-11eb-9a2d-1090425f4939](https://user-images.githubusercontent.com/57286404/118691652-e9759f80-b826-11eb-8439-a26c92e905c4.png)
 
 # Sign & login page
