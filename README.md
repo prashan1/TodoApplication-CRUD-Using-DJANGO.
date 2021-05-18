@@ -1,8 +1,8 @@
-## Live -- https://task-reminder-todo.herokuapp.com/
-# TodoApplication-CRUD-Using-DJANGO.
 
 # For login use username - "NewUser"
 # For password use - 'typethis"
+## Live -- https://task-reminder-todo.herokuapp.com/
+# TodoApplication-CRUD-Using-DJANGO.
 
 Web application which work as a reminder to complete future tasks.
 # Main page of application
