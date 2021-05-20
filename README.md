@@ -1,6 +1,6 @@
-
-# For login use username - "NewUser"
-# For password use - 'typethis"
+For without registration
+# use username - "NewUser"
+# with password  - 'typethis"
 ## Live -- https://task-reminder-todo.herokuapp.com/
 # TodoApplication-CRUD-Using-DJANGO.
 
